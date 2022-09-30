@@ -7,7 +7,7 @@ def Tela():
         [sg.Button('Gerar',font='arial 12',size=(8,1))],
         [sg.CButton('Sair',font='arial 12',size=(8,1))]
     ]
-    coluna2 = [[sg.Text('Tamanho da senha:',font='arial 10 bold')],[sg.Text('Senha:',font='arial 16 bold')]]
+    coluna2 = [[sg.Text('Tamanho da senha (3 ou mais digitos):',font='arial 10 bold')],[sg.Text('Senha:',font='arial 16 bold')]]
     coluna3 = [[sg.Input(font='arial 12', key='tamanho', size=(5, 1),justification='center')],[sg.Input(font='arial 15',key='senha',size=(25,1))]]
     c1,c2,c3,c4 = [coluna2[0]],[coluna3[0]],[coluna2[1]],[coluna3[1]]
     layout = [
